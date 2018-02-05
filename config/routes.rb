@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'sessions/new'
 
+  post 'sessions/new'
+
   get 'sessions/create'
 
   get 'sessions/destroy'
@@ -20,3 +22,5 @@ Rails.application.routes.draw do
 end
 
 root 'admin#index'
+
+end

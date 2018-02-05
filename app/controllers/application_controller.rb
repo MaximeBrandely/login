@@ -7,3 +7,4 @@ class ApplicationController < ActionController::Base
   		redirect_to login_url, notice:"You trying to access without permission ? lol"
   end
 end
+end

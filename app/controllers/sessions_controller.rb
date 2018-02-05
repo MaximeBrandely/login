@@ -19,3 +19,4 @@ skip_before_action :authorize
   	redirect_to login_url, alert:"Successfully logged out"
   end
 end
+end
